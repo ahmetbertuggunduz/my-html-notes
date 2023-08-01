@@ -4,3 +4,12 @@ body {
 #conter{
     color: red;
 }
+::selection{
+    background-color: aquamarine;
+}
+textarea{
+    color: red;
+font-size: 20px ;    
+}
+
+
