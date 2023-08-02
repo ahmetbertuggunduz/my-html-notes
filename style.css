@@ -9,6 +9,7 @@ body {
 }
 textarea{
     color: red;
+    font-size:20px;
 }
 textarea::placeholder{
 font-size: 20px;
