@@ -14,3 +14,12 @@ textarea{
 textarea::placeholder{
 font-size: 20px;
 }
+.button::before{
+    content: atte(data-hide);
+}
+.checkbox:checked + .button::before{
+    content:(data-show);
+}
+.checkbox:checked + .button + .box{
+    display: none;
+}
