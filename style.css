@@ -23,3 +23,11 @@ font-size: 20px;
 .checkbox:checked + .button + .box{
     display: none;
 }
+a:focus {
+    background-color: red;
+color: white;
+}
+textarea:focus{
+    color: blue;
+    border-color: red;
+}
