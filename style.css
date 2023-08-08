@@ -31,3 +31,6 @@ textarea:focus{
     color: blue;
     border-color: red;
 }
+#by{
+    padding-left: 650px;
+}
